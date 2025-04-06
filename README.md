@@ -1,6 +1,6 @@
 # Knowledge Base based Semantic Image Transmission using CLIP
 
-Pytorch implementation for 
+Pytorch implementation for [[2504.01053\] Knowledge-Base based Semantic Image Transmission Using CLIP](https://arxiv.org/abs/2504.01053)
 
 
 
@@ -41,3 +41,26 @@ python data/build_index.py
 python train.py
 ```
 
+## Citation
+
+If this work is useful for your research, please cite:
+
+```tex
+@article{li2025knowledge,
+  title={Knowledge-Base based Semantic Image Transmission Using CLIP},
+  author={Li, Chongyang and He, Yanmei and Zhang, Tianqian and He, Mingjian and Liu, Shouyin},
+  journal={arXiv preprint arXiv:2504.01053},
+  year={2025}
+}
+```
+
+
+
+## Related links
+
+* SwinJSCC:https://github.com/semcomm/SwinJSCC
+* Sionna for Next Generation Physical Layer research:https://github.com/NVlabs/sionna
+* BPG image encoder and decoder: https://bellard.org/bpg
+* CLIP for semantic feature extract: https://github.com/openai/CLIP
+* FAISS for feature index: https://github.com/facebookresearch/faiss
+* CIFAR100: https://www.cs.toronto.edu/~kriz/cifar.html
